@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget{
 
           itemCount:myImages.length ,
             itemExtentBuilder:(index,dimensions){
-            return (index % 2==0)?100:150;
+            return (index % 2==0)?100:250;
             },
             itemBuilder: (context,index){
             return ListTile(

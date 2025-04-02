@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('item extent builder'),),
+        appBar: AppBar(title: Text('item extent builder'),centerTitle: true,),
       ),
     );
   }

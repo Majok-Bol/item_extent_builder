@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text('item extent builder'),centerTitle: true,backgroundColor: Colors.purple,),
+        appBar: AppBar(title: Text('item extent builder',style: TextStyle(color: Colors.white),),centerTitle: true,backgroundColor: Colors.purple,),
       ),
     );
   }
